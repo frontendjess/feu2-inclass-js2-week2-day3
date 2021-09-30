@@ -24,10 +24,12 @@ class personClass {
 		console.log(this.age);
 	}
 
-	printPersonToDom() {
-		document.querySelector(
-			'.person'
-		).innerHTML = `${this.name} ${this.surname} ${this.age}`;
+	printPersonToDOM() {
+		document.querySelector('.person').innerHTML = `
+			<p>Name: ${this.name}</p> 
+			<p>Surname: ${this.surname}</p> 
+			<p>Age: ${this.age}</p>
+		`;
 	}
 }
 
@@ -35,4 +37,4 @@ const jessica = new personClass('Jessica', 'Mitchell', 35);
 jessica.printName();
 jessica.printSurname();
 jessica.printAge();
-jessica.printPersonToDom();
+jessica.printPersonToDOM();

@@ -45,3 +45,4 @@ console.log(newSomeNames);
 // please explain: We can pass variables into classes in the constructor method
 // and set properties inside the class with these values.This is called initialising a class.
 // or what does it mean to initialize the class? please show example.
+// did you show us how to UML??
