@@ -5,7 +5,7 @@
 // Have a method inside the class that writes to the name, surname and age
 // to a DOM element sent to the class.
 
-class personClass {
+class PersonClass {
 	constructor(name, surname, age) {
 		this.name = name;
 		this.surname = surname;
@@ -33,7 +33,7 @@ class personClass {
 	}
 }
 
-const jessica = new personClass('Jessica', 'Mitchell', 35);
+const jessica = new PersonClass('Jessica', 'Mitchell', 35);
 jessica.printName();
 jessica.printSurname();
 jessica.printAge();
